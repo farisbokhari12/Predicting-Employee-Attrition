@@ -180,13 +180,21 @@ ROC-AUC score for K-Nearest Neighbors: 0.8908
 
 The findings from the GridSearchCV are more interesting, as we see similar results that the Random Forest and Decision Tree both have much higher accuracy and cross-validation accuracy than the other two models. However, in this case the Decision Tree had a slightly higher accuracy than the Random Forest model did. This potentially could be due to the tuning of the parameters having a slightly better impact on the Decision Tree model. In addition we see that the ROC-AUC scores for KNN, Random Forest, and Decision Tree have all above 0.95 which means that the results for these models are accurate since values closer to 0.5 mean that the model is randomly predicting and closer to 1 means that it is making meaningful predictions.
 
-#### Next steps
+## Next steps
+### Conclusion
 
+Overall, this study provided key insights into potential opportunities for employers to assess what may be significant factors that play a role in identifying employees at risk for attrition. Employers could take advantage of this model and continue to feed in data to identify additional features that may allow them to further identify these risks. For instance, we notice that `Age` and `status_year` are very impactful. Throughout the research and exploratory process, we noticed that typically all the models (decision tree, logistic regression, random forest, k-nearest-neighbor) all relatively high model accuracy, f1-scores, and ROC-AUC scores depicting the models providing good results. 
+
+### Future Work
+
+We notice that the `Age` plays a large role in attrition for a majority of employees. Further work in this area could result in determining factors that may lead to age whether that be due to employees growing older and wanting to retire versus potentially younger employees leaving for a variety of other reasons. To further this research, I believe pulling data from other companies and sources could provide more insights for employers that across different companies what attrition looks like and assess general patterns that may come up.
+
+This work includes looking into additional datasets (such as IBM Attrition dataset or private data from multiple companies) and individually running models on them and trying to combine datasets and running the models against a combine dataset. This I believe would provide varying results that can definitely help the models generalize more accurately. Additionally, I believe that further tuning of hyperparameters can also help improve the models and further this research. This can include updating the criterion options for the decision tree model or incorporating other models such as Neural Networks, XgbBooster.
 
 #### Outline of project
 
 - [Link to notebook 1](https://github.com/farisbokhari12/Predicting-Employee-Attrition/blob/main/Capstone_Employee_Attrition.ipynb)
-- [Link to notebook 2]()
+- [Link to notebook 2](https://github.com/farisbokhari12/Predicting-Employee-Attrition/blob/main/Capstone_Employee_Attrition_Evaluation.ipynb)
 - [Link to notebook 3]()
 
 
