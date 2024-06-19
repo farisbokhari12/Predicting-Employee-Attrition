@@ -195,7 +195,6 @@ This work includes looking into additional datasets (such as IBM Attrition datas
 
 - [Link to notebook 1](https://github.com/farisbokhari12/Predicting-Employee-Attrition/blob/main/Capstone_Employee_Attrition.ipynb)
 - [Link to notebook 2](https://github.com/farisbokhari12/Predicting-Employee-Attrition/blob/main/Capstone_Employee_Attrition_Evaluation.ipynb)
-- [Link to notebook 3]()
 
 
 ##### Contact and Further Information
